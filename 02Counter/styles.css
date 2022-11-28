@@ -1,0 +1,14 @@
+/* Bree serif link */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+html, body {
+    font-family: 'Bree Serif', serif;
+}
+

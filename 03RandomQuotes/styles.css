@@ -1,0 +1,28 @@
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* custom container */
+.custom-container {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background: white;
+    box-shadow: rgb(0 0 0 / 8%) 0 1px;
+}
+
+
+@media screen and  (max-width: 600px) {
+    .custom-container {
+        width: 90%;
+    }
+}
