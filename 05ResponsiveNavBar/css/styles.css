@@ -12,82 +12,45 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-.header {
+.mobile-header {
+    /*    border: 2px solid yellow;*/
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
     background: white;
-    height: 60px;
-    box-shadow: rgb(0 0 0 / 8%) 0 1px;
-}
-
-.flex-container {
     display: flex;
-    justify-content: center;
+    width: 100vw;
 }
 
-.flex-child {
+.mobile-header-1 {
+    /*    border: 2px solid green;*/
     flex: 1;
-    justify-content: center;
+    width: 30vw;
     align-content: center;
 }
 
-.brand-name {
-    /* border: 2px solid red; */
-    width: 50vw;
+.mobile-header-2 {
+    /*    border: 2px solid blue;*/
+    width: 70vw;
 }
 
-.navbar {
-    border: 2px solid yellow;
-    width: 50vw;
+
+.sidebar {
+    /* border: 2px solid red;*/
+    display: none; /* Hidden by default*/
+    width: 80vw;
+    height: 100vh;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
 }
 
-.navbar > ul {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-
-.icon {
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .navbar {
-        width: 100vw;
-        display: none;
-    }
-
-    .brand-name {
-        width: 100vw;
-    }
-
-    ul {
-        width: 100vw;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .brand-name > ul {
-        border: 2px solid red;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-
-    .icon {
-        display: block;
-    }
-
-    .responsive {
-        display: block;
-    }
-
-    ul > li {
-        /*        border: 2px solid green;*/
-    }
+.links {
+    /*    border: 2px solid green;*/
+    width: 75vw;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #f2f2f2;
+    border-radius: 4px;
 }

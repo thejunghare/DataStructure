@@ -1,11 +1,8 @@
-const bars = document.getElementById("bars");
-const navbar = document.getElementById("navbar");
+// hide sidebar once clicked outside div
+const sidebar = document.getElementById('sidebar')
 
-bars.addEventListener("click", function () {
-  if (navbar.className === "navbar") {
-    navbar.className += " responsive";
-  } else {
-    navbar.className = "navbar";
-  }
-  console.log("clicked");
-});
+document.addEventListener('click', function(event){
+    if (!sidebar.contains(event.target)){
+        sidebar.style.display = 'none'
+    }
+})
