@@ -33,15 +33,15 @@ a {
 
 .brand-name {
     /* border: 2px solid red; */
-    width: 50%;
+    width: 50vw;
 }
 
 .navbar {
     border: 2px solid yellow;
-    width: 50%;
+    width: 50vw;
 }
 
- ul {
+.navbar > ul {
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -57,23 +57,37 @@ a {
     }
 
     .navbar {
-        width: 100%;
+        width: 100vw;
         display: none;
     }
 
     .brand-name {
-        width: 100%;
+        width: 100vw;
     }
 
-    .navbar > ul {
-        flex-direction: column
+    ul {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-around;
     }
+
+    .brand-name > ul {
+        border: 2px solid red;
+        display: flex;
+        flex-direction: row;
+    }
+
+
 
     .icon {
         display: block;
     }
 
     .responsive {
-        display: none;
+        display: block;
+    }
+
+    ul > li {
+        /*        border: 2px solid green;*/
     }
 }
