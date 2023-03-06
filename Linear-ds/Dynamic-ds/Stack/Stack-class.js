@@ -1,6 +1,6 @@
-// TODO : implement stack data structure using stack class
+// TODO : implement stack data structure using stack class.
 
-// Function provide by the stack ds: push(), pop(), peeK(), etc
+// Function provide by the stack ds: push(), pop(), peeK(), etc.
 
 // create a stack
 class Stack {
