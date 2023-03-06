@@ -7,7 +7,7 @@
 
 <ul>
     <li> <strong> What are data structure : <br> </strong>
-        storage that is used to store and organize data. Its a way of arraging data.
+        In simple words, a data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. It provides a way to represent and manipulate data in a logical and organized manner, making it easier to perform operations like searching, sorting, and modifying the data
     </li>
 </ul>
 
