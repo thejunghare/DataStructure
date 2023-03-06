@@ -1,5 +1,5 @@
 <h2>Data structure and algorithms</h2>
-<p>This repository will give an basic idea of the important data structure using Javascript.</p>
+<p>This repository will give an basic idea of the common data structure using Javascript.</p>
 
 <strong>
     <p>Detalied explanation to all the data structure have been given in their particular folder.</p>
@@ -18,56 +18,34 @@
 </ul>
 
 <ol>
-    <li>
-        <pre><code>Linear Data Structure</code></pre>
-    </li>
+    <li>Linear Data Structure</li>
 
 
 <ul>
 <ul>
     <li>
-        <pre><code><h4><strong>Static data structure</strong></h4></code></pre>
+        Static data structure
         <ul>
-            <li>
-                <pre><code><h4><strong>Array</strong></h4></code></pre>
-            </li>
+            <li>Array</li>
         </ul>
     </li>
     <li>
-        <pre><code><h4><strong>Dynamic data structure</strong></h4></code></pre>
+        Dynamic data structure
     </li>
     <ul>
-        <li>
-            <pre><code><h4><strong>Queue</strong></h4></code></pre>
-        </li>
-        <li>
-            <pre><code><h4><strong>Stack</strong></h4></code></pre>
-        </li>
-        <li>
-            <pre><code><h4><strong>Linked list</strong></h4></code></pre>
-        </li>
+        <li>Queue</li>
+        <li>Stack</li>
+        <li>Linked list</li>
     </ul>
 </ul>    
 </ul>
 
-<li>
-    <pre><code>Non-Linear Data Structure</code></pre>
-</li>
+<li>Non-Linear Data Structure</li>
 <ul>
-    <li>
-        <pre><code><h4><strong>Tree</strong></h4></code></pre>
-    </li>
-    <li>
-        <pre><code><h4><strong>Graph</strong></h4></code></pre>
-    </li>
+    <li>Tree</li>
+    <li>Graph</li>
 </ul> 
 </ol>
-
-<strong>
-    <p>I request you to try and solve the challenges yourself by taking help from the readme.md files, as I have
-        provided solution to all the challenges. I am happy to provide you with my solutions if you are unable to
-        solve the problem.</p>
-</strong>
 
 <strong>
     <p>If you like my work dont forget to star this repository and follow @loremcodes.</p>
