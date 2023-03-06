@@ -22,10 +22,6 @@
     <li><strong>Stack : </strong> A stack is a simple data structure that allows data to be stored and retrieved in a
         particular order. It works like a stack of books where the last book added is the first one to be taken out.
     </li>
-
-    <!-- <li><strong>Queue : </strong> A queue is a linear data structure that follows the principle of FIFO (First In, First
-        Out). This means that the first element added to the queue is the first element to be removed from the queue.
-    </li> -->
 </ol>
 
 <ul>
