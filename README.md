@@ -12,15 +12,22 @@ In simple words, a data structure is a way of organizing and storing data in a c
 ## Types of DS
 
 ```mermaid
-  graph TD
+graph TD
     A[Data structure] --> B(Linear)
     A[Data structure] --> C(Non-Linear)
     B[Linear DS] --> D(Static DS)
     B[Linear DS] --> E(Dyamic DS)
     D[Static DS] --> H(Array)
+    I[Queue] --> O(Simple / Linear Queue)
+    I[Queue] --> P(Piroity Queue)
+    I[Queue] --> Q(Double Ended Queue / Dequeue)
+    I[Queue] --> R(Circular Queue)
     E[Dynamic DS] --> I(Queue)
     E[Dynamic DS] --> J(Stack)
     E[Dynamic DS] --> K(Linked List)
+    K[Linked List] --> L(Singly Linked List)
+    K[Linked List] --> M(Doubly Linked List)
+    K[Linked List] --> N(Circular Linked List)
     C[Non Linear DS] --> F(Tree)
     C[Non Linear DS] --> G(Graph)
 ```
