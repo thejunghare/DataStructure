@@ -2,6 +2,8 @@
 
 package main
 
+import "fmt"
+
 // deckare a type of stack
 type Stack []int
 
@@ -11,7 +13,7 @@ func (st *Stack) Push(value int) {
 }
 
 // Pop function
-func (st *Stack) Pop(value int) int {
+func (st *Stack) Pop() int {
 	// check if empty
 	if st.isEmpty() {
 		return 0
@@ -35,5 +37,11 @@ func (st *Stack) isEmpty() bool {
 }
 
 func main() {
+	st := Stack{}
+
+	st.Push(1)
+	st.Push(2)
+
+	fmt.Println("Pop elements", st.Pop())
 
 }
