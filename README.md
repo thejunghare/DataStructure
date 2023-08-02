@@ -17,36 +17,15 @@
     </li>
 </ul>
 
-<ol>
-    <li>Linear Data Structure</li>
-
-
-<ul>
-<ul>
-    <li>
-        Static data structure
-        <ul>
-            <li>Array</li>
-        </ul>
-    </li>
-    <li>
-        Dynamic data structure
-    </li>
-    <ul>
-        <li>Queue</li>
-        <li>Stack</li>
-        <li>Linked list</li>
-    </ul>
-</ul>    
-</ul>
-
-<li>Non-Linear Data Structure</li>
-<ul>
-    <li>Tree</li>
-    <li>Graph</li>
-</ul> 
-</ol>
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 <strong>
     <p>If you like my work dont forget to star this repository and follow @loremcodes.</p>
 </strong>
+
