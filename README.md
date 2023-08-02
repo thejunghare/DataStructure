@@ -25,36 +25,4 @@ In simple words, a data structure is a way of organizing and storing data in a c
     C[Non Linear DS] --> G(Graph)
 ```
 
-<ol>
-    <li>Linear Data Structure</li>
-
-
-<ul>
-<ul>
-    <li>
-        Static data structure
-        <ul>
-            <li>Array</li>
-        </ul>
-    </li>
-    <li>
-        Dynamic data structure
-    </li>
-    <ul>
-        <li>Queue</li>
-        <li>Stack</li>
-        <li>Linked list</li>
-    </ul>
-</ul>    
-</ul>
-
-<li>Non-Linear Data Structure</li>
-<ul>
-    <li>Tree</li>
-    <li>Graph</li>
-</ul> 
-</ol>
-
-<strong>
-    <p>If you like my work dont forget to star this repository and follow @loremcodes.</p>
-</strong>
+<!-- If you like my work dont forget to star this repository and follow @thejunghare -->
