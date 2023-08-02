@@ -10,15 +10,19 @@ type Stack struct {
 
 func NewStack() *Stack {
 	return &Stack{
+		// Empty slice of type int with length 0
+		// make([]dtattype, length, capcity)
 		Values: make([]int, 0),
+
+		// set the initial value to -1 which ensure the stack is empty
 		top: -1,
 	}
 }
 
 // Push at top
 func (st *Stack) Push(value int){
-	st.top++
 	st.Values = append(st.Values, value)
+	st.top++
 }
 
 // Pop and rreturn the top value
@@ -36,6 +40,7 @@ func (st *Stack) Pop() int {
 
 // Check if the stack is empty
 func (st *Stack) isEmpty() bool {
+	// if the top == -1, means the stack is empty
 	return st.top == -1
 }
 
@@ -46,7 +51,7 @@ func main(){
 	st.Push(1)
 	st.Push(2)
 
-	// Pop eleements for stack
+	// Pop eleements form stack
 	fmt.Println("Pop :", st.Pop())
 	fmt.Println("Pop :", st.Pop())
 }
