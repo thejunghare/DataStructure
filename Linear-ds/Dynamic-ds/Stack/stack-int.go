@@ -1,3 +1,5 @@
+/* This example uses the stack to implement the stack ds in Golang */
+
 package main
 
 import "fmt"
