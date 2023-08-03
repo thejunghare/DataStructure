@@ -37,14 +37,14 @@ graph LR
     A[80] --> B[30] --> C[20] --> D[10] --> E[5]
     A[80] --> G(Dequeue)
     A[80] --> H(Highest Priority)
-    E[5] --> I(Enqueue)
+    I(Enqueue) --> E[5]
     E[5] --> J(Lowest Priority)
 
     A[80] -- Decreasing Priority  --> E(5)
 ```
 
-
 - Types of Priority queue
+
 ```mermaid
 graph LR
     A[Priority Queue] --> B(Ascending Priority Queue)
@@ -58,6 +58,28 @@ Insertion and deletion can be done from both ends of queue either from front or 
 Dequeue can be used both as stack and queue as they both follow LIFO
 Dequeue doesn't follow FIFO
 
+```mermaid
+graph TD
+
+subgraph Double Ended Queue
+    A[Node 4]
+    B[Node 2]
+    C[Node 3]
+    D[Node 1]
+end
+
+A[Node 4] --> E(Rear)
+D[Node 1] --> F(Front)
+D[Node 1] --> G(Delete)
+H(Insert) --> D[Node 1]
+
+
+  I(Insert) --> A[Node 4]
+A[Node 4] --> J(Delete)
+
+
+```
+
 - Types of Double ended queue OR Dequeue
 
 ```mermaid
@@ -65,4 +87,3 @@ graph LR
     A[Double ended queue OR Dequeue] --> B(Input Restricted Queue)
     A[Double ended queue OR Dequeue] --> c(Output Restricted Queue)
 ```
-
