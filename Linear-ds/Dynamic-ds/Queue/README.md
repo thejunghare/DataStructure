@@ -103,7 +103,7 @@ Insertion operation can be be performed at only one end, while deletion can be p
 ```mermaid
 graph TD
 
-subgraph Double Ended Queue
+subgraph Input Restricted dequeue
     A[Node 4]
     B[Node 2]
     C[Node 3]
@@ -128,7 +128,7 @@ Deletion operation can be be performed at only one end, while insertion can be p
 ```mermaid
 graph TD
 
-subgraph Double Ended Queue
+subgraph Output Restricted dequeue
     A[Node 4]
     B[Node 2]
     C[Node 3]
