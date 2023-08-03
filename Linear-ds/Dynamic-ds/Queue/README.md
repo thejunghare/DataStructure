@@ -6,13 +6,8 @@ Defined as ordered list, helps **insert** operations to be performed at one end 
 
 ```mermaid
 graph TD
-    A[Queue] --> B(Linear)
-    B[Linear DS] --> D(Static DS)
-    B[Linear DS] --> E(Dyamic DS)
-    D[Static DS] --> H(Array)
-    E[Dynamic DS] --> I(Queue)
-    E[Dynamic DS] --> J(Stack)
-    E[Dynamic DS] --> K(Linked List)
-    C[Non Linear DS] --> F(Tree)
-    C[Non Linear DS] --> G(Graph)
+    A[Queue] --> B(Simple/Linear Queue)
+    A[Queue] --> c(Circular Queue)
+    A[Queue] --> d(Priority Queue)
+    A[Queue] --> E(Double Ended/Dequeue Queue)
 ```
