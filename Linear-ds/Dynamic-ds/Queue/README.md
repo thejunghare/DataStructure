@@ -12,11 +12,11 @@ graph TD
     A[Queue] --> E(Double Ended/Dequeue Queue)
 ```
 
-- **Simple Queue**
+## Simple Queue
 
 Follows FIFO.
 
-- **Circular Queue**
+## Circular Queue
 
 A circular queue is similar to the linear queue expect the last element of queue is connected to first element. It's aslo called as the ring buffer.
 
@@ -28,7 +28,7 @@ graph LR
     Node3 --> Node1
 ```
 
-- Priority Queue
+## Priority Queue
 
 A queue which is arranged on the basis of the priority.Special type of queue where elements are arranged on priority associated with it.Elements with same amount of priority will be arranged on FIFO base's.
 
@@ -44,25 +44,25 @@ graph LR
 ```
 
 
-## Types of Priority queue
+- Types of Priority queue
 ```mermaid
 graph LR
     A[Priority Queue] --> B(Ascending Priority Queue)
     A[Priority Queue] --> c(Descending Priority Queue)
 ```
 
-- Double ended queue OR Dequeue
+## Double ended queue OR Dequeue
 
 Insertion and deletion can be done from both ends of queue either from front or rear. Can be used as an palindrome checker (if we can read string from both ends, then the string would be same).
 
 Dequeue can be used both as stack and queue as they both follow LIFO
 Dequeue doesn't follow FIFO
 
-## Types of Double ended queue OR Dequeue
+- Types of Double ended queue OR Dequeue
 
 ```mermaid
 graph LR
-    A[Double ended queue OR Dequeue] --> B(Input restricted Queue)
-    A[Double ended queue OR Dequeue] --> c(Output restricted Queue)
+    A[Double ended queue OR Dequeue] --> B(Input Restricted Queue)
+    A[Double ended queue OR Dequeue] --> c(Output Restricted Queue)
 ```
 
