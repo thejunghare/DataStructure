@@ -95,3 +95,53 @@ graph LR
     A[Double ended queue OR Dequeue] --> B(Input Restricted Queue)
     A[Double ended queue OR Dequeue] --> c(Output Restricted Queue)
 ```
+
+- Input Restricted dequeue
+
+Insertion operation can be be performed at only one end, while deletion can be performed from both ends
+
+```mermaid
+graph TD
+
+subgraph Double Ended Queue
+    A[Node 4]
+    B[Node 2]
+    C[Node 3]
+    D[Node 1]
+end
+
+A[Node 4] --> E(Rear)
+D[Node 1] --> F(Front)
+D[Node 1] --> G(Delete)
+H(Insert) --> D[Node 1]
+
+
+A[Node 4] --> J(Delete)
+
+
+```
+
+- Output Restricted dequeue
+
+Deletion operation can be be performed at only one end, while insertion can be performed from both ends
+
+```mermaid
+graph TD
+
+subgraph Double Ended Queue
+    A[Node 4]
+    B[Node 2]
+    C[Node 3]
+    D[Node 1]
+end
+
+A[Node 4] --> E(Rear)
+D[Node 1] --> F(Front)
+H(Insert) --> D[Node 1]
+
+
+  I(Insert) --> A[Node 4]
+A[Node 4] --> J(Delete)
+
+
+```
