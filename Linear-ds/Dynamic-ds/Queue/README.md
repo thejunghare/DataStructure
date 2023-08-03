@@ -23,9 +23,17 @@ A circular queue is similar to the linear queue expect the last element of queue
 The representation of circular queue is shown in the below image -
 
 ```mermaid
-graph LR
-    Node1 --> Node2 --> Node3
-    Node3 --> Node1
+graph
+
+subgraph Circular Queue
+    A[Node 1]
+    B[Node 2]
+    C[Node 3]
+    D[Node 4]
+
+    A[Node 1] --> B[Node 2] --> C[Node 3] --> D[Node 5]
+    D[Node 5] --> A[Node 1]
+end
 ```
 
 ## Priority Queue
