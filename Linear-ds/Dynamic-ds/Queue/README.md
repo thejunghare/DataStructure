@@ -2,18 +2,17 @@
 
 Defined as ordered list, helps **insert** operations to be performed at one end called **rear** and **delete** for one end called **front**
 
-## Diagram
-```
-graph LR
-  A(Queue) --- B[Front]
-  A --- C[Rear]
-  A --> D[enqueue()]
-  A --> E[dequeue()]
-  A --> F[isEmpty()]
-  A --> G[isFull()]
-  
-  style A fill:#f9f,stroke:#333,stroke-width:2px
-  style B fill:#fff,stroke:#333,stroke-width:2px
-  style C fill:#fff,stroke:#333,stroke-width:2px
-  style D, E, F, G fill:#fff,stroke:#333,stroke-width:2px
+## Types
+
+```mermaid
+graph TD
+    A[Queue] --> B(Linear)
+    B[Linear DS] --> D(Static DS)
+    B[Linear DS] --> E(Dyamic DS)
+    D[Static DS] --> H(Array)
+    E[Dynamic DS] --> I(Queue)
+    E[Dynamic DS] --> J(Stack)
+    E[Dynamic DS] --> K(Linked List)
+    C[Non Linear DS] --> F(Tree)
+    C[Non Linear DS] --> G(Graph)
 ```
