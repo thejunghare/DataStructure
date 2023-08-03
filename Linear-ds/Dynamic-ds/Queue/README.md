@@ -44,10 +44,25 @@ graph LR
 ```
 
 
-Types of Priority queue
+## Types of Priority queue
 ```mermaid
 graph LR
     A[Priority Queue] --> B(Ascending Priority Queue)
     A[Priority Queue] --> c(Descending Priority Queue)
+```
+
+- Double ended queue OR Dequeue
+
+Insertion and deletion can be done from both ends of queue either from front or rear. Can be used as an palindrome checker (if we can read string from both ends, then the string would be same).
+
+Dequeue can be used both as stack and queue as they both follow LIFO
+Dequeue doesn't follow FIFO
+
+## Types of Double ended queue OR Dequeue
+
+```mermaid
+graph LR
+    A[Double ended queue OR Dequeue] --> B(Input restricted Queue)
+    A[Double ended queue OR Dequeue] --> c(Output restricted Queue)
 ```
 
