@@ -12,11 +12,11 @@ graph TD
     A[Queue] --> E(Double Ended/Dequeue Queue)
 ```
 
-- Simple Queue
+- **Simple Queue**
 
 Follows FIFO.
 
-- Circular Queue
+- **Circular Queue**
 
 A circular queue is similar to the linear queue expect the last element of queue is connected to first element. It's aslo called as the ring buffer.
 
@@ -27,3 +27,27 @@ graph LR
     Node1 --> Node2 --> Node3
     Node3 --> Node1
 ```
+
+- Priority Queue
+
+A queue which is arranged on the basis of the priority.Special type of queue where elements are arranged on priority associated with it.Elements with same amount of priority will be arranged on FIFO base's.
+
+```mermaid
+graph LR
+    A[80] --> B[30] --> C[20] --> D[10] --> E[5]
+    A[80] --> G(Dequeue)
+    A[80] --> H(Highest Priority)
+    E[5] --> I(Enqueue)
+    E[5] --> J(Lowest Priority)
+
+    A[80] -- Decreasing Priority  --> E(5)
+```
+
+
+Types of Priority queue
+```mermaid
+graph LR
+    A[Priority Queue] --> B(Ascending Priority Queue)
+    A[Priority Queue] --> c(Descending Priority Queue)
+```
+
