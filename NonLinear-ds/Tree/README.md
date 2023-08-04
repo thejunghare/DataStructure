@@ -55,7 +55,7 @@ graph LR
 
 ## Real life example for tree DS (file system)
 ```mermaid
-graph LR
+graph
     A[User] --> B(Home)
     B[Home] --> C(Desktop)
     C[Desktop] --> D(Documents)
