@@ -4,7 +4,7 @@ Tree is used to represent data in hierarchical data. A method to organize and st
 
 ```mermaid
 graph 
-    A[A] --> B[A]
+   A[A] --> B[A]
     A --> C[C]
     subgraph Sub Tree
     B --> D[D]
@@ -26,14 +26,4 @@ graph
     E[E]--- S(Child)
     L[L] --- T(Leaf Node)
     M[M] --- T(Leaf Node)
-
-
-    classDef green fill:#9f6,stroke:#333,stroke-width:2px;
-    classDef orange fill:#f96,stroke:#333,stroke-width:2px;
-    classDef blue fill:#6abeff,stroke:#333,stroke-width:2px;
-    classDef yellow fill:#ffff00,stroke:#333,stroke-width:2px;
-    class R green
-    class T orange
-    class S blue
-    class I yellow
 ```
