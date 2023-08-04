@@ -31,7 +31,7 @@ Graph
 
 Each data structure comes with its own tutorial explaining its working principles, operations, and use cases. You can find the corresponding implementation in the Go programming language.
 
-Algorithms
+## Algorithms
 In the Algorithm directory, you will find implementations of popular algorithms, such as:
 
 Searching algorithms (Binary Search, Linear Search)
