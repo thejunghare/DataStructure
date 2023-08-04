@@ -39,12 +39,12 @@ Sorting algorithms (Bubble Sort, Merge Sort, Quick Sort, etc.)
 
 Similarly, each algorithm is accompanied by a tutorial explaining its logic, time complexity, and practical use cases. The code is available in Golang programming language.
 
-Contributing
+## Contributing
 We welcome contributions from the open-source community. If you find any bugs, errors, or improvements, please feel free to raise an issue or submit a pull request. Your valuable contributions will help improve the content and make it more helpful to learners worldwide.
 
 When contributing, please follow the existing code style and ensure that your changes are well-documented. Also, add appropriate tests to verify the correctness of your implementations.
 
-License
+## License
 This repository is licensed under the MIT License. You can find more details in the LICENSE file.
 
 Happy learning and coding! Let's master data structures and algorithms together! 🚀
