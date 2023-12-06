@@ -1,3 +1,13 @@
+/*
+inserting and deleting in middle of a array can be tricky that's where linked list come in
+
+linked list terminology head->start of list, link->has link to next node, node, tail-> end of list
+
+Types: singly, doubly, circular
+
+linked list elements/node can be anywhere in the memory, unlike array which has elements in a block
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,8 +43,17 @@ int main(void)
 
     head = &n1;
     n1.next = &n2;
-    n2.next = &n3;
-    n3.next = NULL; // null is where list stop
+    // n2.next = &n3;
+    // n3.next = NULL; // null is where list stop
+
+    // add element in midddle
+    node_t n4;
+    n4.value = 9;
+    n2.next = &n4;
+    n4.next = &n3;
+    n3.next = NULL;
+
+    head = head->next; // change head
 
     printlist(head);
     return 0;
