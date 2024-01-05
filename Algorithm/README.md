@@ -62,7 +62,13 @@ You now understand the various time complexities, and you can recognize the best
 
 5. When the ***growth rate doubles with each addition to the input, it is exponential time complexity (O2^n)***.
 
+## Example for Complexity
+
 ### Constant Time Complexity
+
+When your algorithm is not dependent on the input size n, it is said to have a constant time complexity with order O(1). This means that the run time will always be the same regardless of the input size.
+
+For Example:
 
 ```
 int firstelement(int arrray[]) {
@@ -71,7 +77,25 @@ int firstelement(int arrray[]) {
 
 int main(void) {
     int array[] = {1, 2, 3, 4, 5, 6};
-    printf("%d", firstelement(array));
+    printf("%d", firstelement(array)); // 1
 }
 ```
 
+function above will require only one execution step, meaning the function is in constant time with time complexity O(1).
+
+But if we look at another solution
+
+```
+int firstelement(int array[], int size) {
+    for (int i = 0; i < size; i++) {
+        return array[0];
+    }
+}
+
+int main(void) {
+    int array[] = {1, 2, 3, 4, 5, 6};
+    printf("%d", firstelement(array, sizeof(array) / sizeof(array[0]))); // 1
+}
+```
+
+if there is a loop, this is no longer constant time but now linear time with the time complexity O(n).
