@@ -25,9 +25,9 @@ We have an algorithm that computes the sum of numbers based on your input. If yo
 
 ![algorithm](./algorithm.png "Example algorithm")
 
-Looking at the image above, we only have three statements. Still, because there is a loop, the second statement will be executed based on the input size, so if the input is four, the second statement (statement 2) will be executed four times, meaning the entire algorithm will run six (4 + 2) times.
+Looking at the image above, we only have three statements. Still, because there is a loop, the second statement will be executed based on the input size, so if the input is four, the second statement (statement 2) will be executed four times, ***meaning the entire algorithm will run six (4 + 2) times***.
 
-In plain terms, the algorithm will run input + 2 times, where input can be any number. This shows that it's expressed in terms of the input. In other words, it is a function of the input size.
+In plain terms, the ***algorithm will run input + 2 times***, where input can be any number. This shows that it's expressed in terms of the input. In other words, it is a function of the input size.
 
 ## Big O Complexity Chart
 
@@ -39,7 +39,7 @@ This helps programmers to understand the worst case scenarion and the execution 
 
 ## Type of complexity
 
-There are 6 major types of complexities
+There are ***6 major types*** of complexities
 
 1. Constant: O(1) -> Excellent/Best
 2. Linear Time: O(n) -> Fair
