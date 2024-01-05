@@ -13,16 +13,38 @@ Big O notation is a metric for ***determining the efficiency of an algorithm***,
 ## Time as a function of input size
 
 ```
-const calculatesum = (input) => {
-    let sum = 0
-    
-    for (let i = 0; i <= input; i++){
-        sum += i    
+const calculateSum = (input) => {
+    let sum = 0;
+    for (let i = 0; i <= input; i++) {
+        sum += i;
     }
-    
-    return sum
-}
+    return sum;
+};
 ```
 We have an algorithm that computes the sum of numbers based on your input. If your input is 4, it will add 1+2+3 to output 10; if your input is 5, it will output 15 (meaning 1+2+3+4+5)
 
 ![algorithm](./algorithm.png "Example algorithm")
+
+Looking at the image above, we only have three statements. Still, because there is a loop, the second statement will be executed based on the input size, so if the input is four, the second statement (statement 2) will be executed four times, meaning the entire algorithm will run six (4 + 2) times.
+
+In plain terms, the algorithm will run input + 2 times, where input can be any number. This shows that it's expressed in terms of the input. In other words, it is a function of the input size.
+
+## Big O Complexity Chart
+
+Big O Chart, also Know as the Big O Graph is an asymptotic notation used to express the complexity of an algorithm or its performance as a function of input size.
+
+This helps programmers to understand the worst case scenarion and the execution time or memory required by an algorithm.
+
+![chart](./chart.png "Big O Chart")
+
+## Type of complexity
+
+There are 6 major types of complexities
+
+1. Constant: O(1)
+2. Linear Time: O(n)
+3. Logarithmic Time: O(n log n)
+4. Quadratic Time: O(n^2)
+5. Exponential Time: O(2^n)
+6. Factorial Time: O(n!)
+
