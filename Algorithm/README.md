@@ -41,10 +41,24 @@ This helps programmers to understand the worst case scenarion and the execution 
 
 There are 6 major types of complexities
 
-1. Constant: O(1)
-2. Linear Time: O(n)
-3. Logarithmic Time: O(n log n)
-4. Quadratic Time: O(n^2)
-5. Exponential Time: O(2^n)
-6. Factorial Time: O(n!)
+1. Constant: O(1) -> Excellent/Best
+2. Linear Time: O(n) -> Fair
+3. Logarithmic Time: O(n log n) -> Bad
+4. Quadratic Time: O(n^2) -> Worst
+5. Exponential Time: O(2^n) -> Worst
+6. Factorial Time: O(n!) -> Worst
+
+You now understand the various time complexities, and you can recognize the best, good, and fair ones, as well as the bad and worst ones (always avoid the bad and worst time complexity).
+
+## CheatSheet
+
+1. When your calculation is not dependent on the input size, it's a constant time complexity (O(1)).
+
+2. When the input size is reduced by half, maybe when iterating hanndling recursion, or whatsoever, it is a logarithmic time complexity (O(log n)).
+
+3. When you have a single loop within your algorithm, it is linear time complexity (O(n)).
+
+4. When you have nested loop within your algorithm, meaning a loop in a loop it is quadratic time complexity (O(n^2)).
+
+5. When the growth rate doubles with each addition to the input, it is exponential time complexity (O2^n).
 
