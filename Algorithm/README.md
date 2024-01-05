@@ -62,3 +62,16 @@ You now understand the various time complexities, and you can recognize the best
 
 5. When the ***growth rate doubles with each addition to the input, it is exponential time complexity (O2^n)***.
 
+### Constant Time Complexity
+
+```
+int firstelement(int arrray[]) {
+    return array[0];
+}
+
+int main(void) {
+    int array[] = {1, 2, 3, 4, 5, 6};
+    printf("%d", firstelement(array));
+}
+```
+
